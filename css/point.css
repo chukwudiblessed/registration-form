@@ -1,0 +1,288 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.main{
+    justify-content:center ;
+    width: 100%;
+    height:597px;
+}
+.cardm{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    box-shadow: 1px 1px 1px 1px black;
+    margin-top: 10px;
+    width: 370px;
+    height: 470px;
+    border-radius: 15px;
+    background-color: white;
+    /* border: 1px solid lime; */
+}
+
+.nav{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: blue;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav img{
+    width: 170px;
+    height: 50px;
+}
+
+.text2{
+    font-weight: bold;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.photo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    /* background-color: maroon; */
+}
+
+ .icon img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.icon{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: maroon;
+}
+
+.icon i{
+    border-radius: 50%;
+    font-size: 35px;
+}
+label{
+    border-radius: 7px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+   height:33px;
+    background-color: rgba(0, 0, 205, 0.883);
+}
+
+.input{
+    margin-top: 10px;
+    width: 100%;
+    height: 350px;
+    /* background-color: maroon; */
+}
+
+.input1{
+    margin: 12px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: maroon; */
+}
+
+.name1{
+    color: blue;
+}
+.input1 input{
+    margin-left: 5px;
+    padding-left: 10px;
+    width: 200px;
+    height: 20px;
+}
+.input2{
+    margin: 12px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: maroon; */
+}
+
+.name2{
+    color: blue;
+    margin-left: 15px;
+}
+
+.input2 input{
+    margin-left: 5px;
+    padding-left: 10px;
+    width: 200px;
+    height: 20px;
+}
+
+.input3{
+    margin: 12px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name3{
+    color: blue;
+    margin-right: 3px;
+
+}
+
+.input3 input{
+
+    margin-right: 25px;
+    padding-left: 10px;
+    width: 200px;
+    height: 20px;
+}
+
+.upload{
+    display: none;
+}
+.input4{
+    margin: 12px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name4{  
+      color: blue;
+    margin-right: 3px;
+
+}
+
+.input4 input{
+    margin-left: 5px;
+    padding-left: 10px;
+    width: 200px;
+    height: 20px;
+}
+.input5{
+    margin: 12px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: maroon; */
+}
+
+.name5{
+color: blue;
+margin-left: 20px;
+}
+
+
+.input5 select{
+    margin-left: 5px;
+    padding-left: 10px;
+    width: 215px;
+    height: 20px;
+}
+.input6{
+    margin: 12px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: maroon; */
+}
+
+.name6{
+    color: blue;
+    margin-left: 30px;
+}
+
+
+.input6 input{
+    margin-left: 5px;
+    padding-left: 10px;
+    width: 200px;
+    height: 20px;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    /* background-color: blue; */
+}
+.logo img{
+    margin-left: 20px;
+    width: 200px;
+    height: 55px;
+}
+ 
+    
+.react{
+    /* background-color: blue; */
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.react img{
+    width: 45px;
+    height: 45px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 32px;
+    /* background-color: blue; */
+}
+
+.click{
+    border-radius: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 30px;
+    background-color: blue;
+}
+
+
+
+
+
+
+
